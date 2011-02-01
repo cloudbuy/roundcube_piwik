@@ -1,0 +1,45 @@
+<?php
+// vim: ft=php
+
+/* the url to your Piwik install */
+$rcmail_config['piwik_url'] = '';
+
+/* Piwik site ID */
+$rcmail_config['piwik_site_id'] = 1;
+
+/* exclude private pages - analytics will works only for non-logged users */
+$rcmail_config['piwik_privacy'] = FALSE;
+
+/* exclude the following templates */
+$rcmail_config['piwik_exclude'] = array(
+  "message",
+  "messagepreview",
+  "compose",
+  "editidentity",
+  "editcontact", 
+  "showcontact"
+);
+
+//  Possible templates:
+
+//  "message",
+//  "messagepart",
+//  "messagepreview",
+//  "messageerror",
+//  "showcontact",
+//  "addcontact",
+//  "editcontact",
+//  "importcontacts",
+//  "addressbook",
+//  "compose",
+//  "editidentity",
+//  "error",
+//  "identities",
+//  "login",
+//  "mail",
+//  "managefolders",
+//  "plugin",
+//  "settingsedit",
+//  "settings",
+
+?>
