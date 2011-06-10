@@ -10,6 +10,9 @@ $rcmail_config['piwik_site_id'] = 1;
 /* exclude private pages - analytics will works only for non-logged users */
 $rcmail_config['piwik_privacy'] = FALSE;
 
+/* use asynchronous tracking so as not to hang the page load */
+$rcmail_config['piwik_async'] = TRUE;
+
 /* exclude the following templates */
 $rcmail_config['piwik_exclude'] = array(
   "message",
